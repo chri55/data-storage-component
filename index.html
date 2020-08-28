@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Fylo data storage component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background">
+
+  </div>
+  <div class="main">
+    <div class="interactions-container">
+      <div class="interactions">
+        <div class="cardrow">
+          <div class="title icon">
+            <img src="./images/logo.svg" alt="Fylo logo (fylogo heh)">
+          </div>
+        </div>
+        <div class="cardrow">
+          <div class="actions">
+            <div class="folder action">
+              <img src="./images/icon-folder.svg" alt="New Folder Icon">
+            </div>
+            <div class="file action">
+              <img src="./images/icon-document.svg" alt="New Document Icon">
+            </div>
+            <div class="upload action">
+              <img src="./images/icon-upload.svg" alt="Upload New File Icon">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="rounded-corner-spacer">
+
+      </div>
+    </div>
+    
+    <div class="status">
+      <div class="cardrow special-speech">
+        <div class="used-text start">
+          You’ve used <span class="bold">815 GB</span> of your storage
+        </div>
+        <div class="end">
+          <!--HMMMM @ the mobile design... -->
+          <div class="speech-bubble">
+            185 <span class="smaller">GB Left</span>
+          </div>
+        </div>
+      </div>
+      <div class="cardrow">
+        <!--Usage meter-->
+        <div class="usage-meter full">
+          <div class="usage-meter-inner">
+
+          </div>
+        </div>
+      </div>
+      <div class="cardrow">
+        <div class="bold start">
+          0 GB
+        </div>
+        <div class="speech-bubble mobile">
+          185 <span class="smaller">GB Left</span>
+        </div>
+        <div class="bold end">
+          1000 GB
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://christill.net">Chris Till</a>.
+  </div>
+</body>
+</html>
